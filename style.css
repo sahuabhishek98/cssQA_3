@@ -1,0 +1,89 @@
+.container{
+    width: 80%;
+    height: auto;
+    background-color: none;
+    margin-left: 150px;
+   
+}
+
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+b{
+    font-size: 25px;
+}
+p ,li{
+    font-size: 20px;
+    color: blue;
+}
+/* ################################################ */
+button
+{
+ height: 50px;
+ width: 200px;
+ background-color: coral;
+ font-size: 20px;
+ border-radius: 20px;
+padding:10px;
+}
+button:hover{
+    background-color: lime;
+}
+#p1,h2{
+    font-family: sofia;
+    font-size: 30px;
+}
+/* ####################################################### */
+.box{
+height: 100px;
+width: 200px;
+background-color: coral;
+transition: width 3s;
+}
+.box:hover{
+    width: 300px;
+}
+/* ############################################################## */
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: deeppink;
+    border-radius: 50%;
+}
+/* ################################################################### */
+h3{
+    color: fuchsia;
+     animation-name: myani;
+}
+@media screen and (max-width:700px){
+    h3{
+        color:blue;
+        font-style: italic;
+    }
+}
+/* ################################################################# */
+.ani{
+    width:300px;
+    height: 150px;
+    background-color: crimson;
+    animation-name: myani;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+}
+@keyframes myani {
+   0%{
+    background-color: purple;
+   
+   }
+   25%{
+    background-color: yellow;
+   }
+   75%{
+    background-color:green;
+   }
+   100%{
+    background-color: dodgerblue;
+   }
+}
